@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); */
+.navbar{
+    background:#000000;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+  
+}
+.listElemt:hover{
+   color:white;
+
+}
+.link{
+    color: rgb(196, 202, 202);
+    text-decoration: none;
+    vertical-align: middle;
+    margin:8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* padding:40px; */
+
+}
+#heading{
+    color:white;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+    padding:10px;
+    letter-spacing: 3px;
+}
+/* .link:hover{
+    color:white;
+} */
+.studentsList{
+    /* list-style-type: none; */
+  
+    margin-top:-16px;
+}
+.add-mentors{
+  /* background-color: aqua; */
+  padding:10px;
+  margin:50px;
+  border:2px solid black;
+}
+.image{
+    width:300px;
+    margin:auto 200px;
+    border-radius: 20px;
+    /* padding:20px; */
+    box-shadow: 2px 2px 10px #314869;
+}
+.App{
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%); */
+
+    background-color: white;
+}
+.headLine{
+  
+    letter-spacing: 2px;
+ 
+    text-transform: uppercase;
+ 
+        font-size: 30px;
+        background: black;
+        background-clip:text;
+        font-weight: bolder;
+   
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* max-width:500px; */
+        text-align: center;
+      
+}
+.footer{
+    color:rgb(211, 209, 209);
+    text-align: center;
+    background: #000000;
+    padding:10px;
+    margin-top:10px;
+}
+#assignButton{
+    margin:50px;
+}
+#changeMentor{
+    margin:35px;
+}
+#findStudents{
+    margin:30px;
+}
+#addMentor{
+
+   justify-content: center;
+   position: static;
+    align-items: center;
+    
+  
+}
+.addForm{
+    display:block;
+    margin:30px;
+}
